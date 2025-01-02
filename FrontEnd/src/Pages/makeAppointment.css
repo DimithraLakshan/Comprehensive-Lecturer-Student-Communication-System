@@ -1,0 +1,157 @@
+/* General Layout */
+.appointment-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CC3E3E;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header-logo img {
+    width: 50px;
+  }
+  
+  .header-title h1, .header-title h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .header-profile p {
+    margin: 0;
+  }
+  
+  .profile-icon img {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEC5C5;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Appointment Form */
+  .appointment-form-container {
+    margin: 20px auto;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .appointment-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .lecturer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .lecturer-info img {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .lecturer-info p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #F9F9F9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .appointment-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .appointment-form select, .appointment-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancel-button, .send-button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .send-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #bbb;
+  }
+  
+  .send-button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,128 @@
+/* General Container */
+.schedule-container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d53f42;
+    padding: 10px;
+    color: white;
+  }
+  
+  .header-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .university-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .system-name {
+    font-size: 14px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Schedule Table */
+  .schedule-table {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .schedule-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fbd3d3;
+  }
+  
+  .schedule-row:last-child {
+    border-bottom: none;
+  }
+  
+  .schedule-time, .schedule-subject, .schedule-notice {
+    width: 30%;
+    text-align: left;
+  }
+  
+  .schedule-notice {
+    color: #d53f42;
+  }
+  
+  /* Day Navigation Buttons */
+  .day-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .day-navigation button {
+    background-color: #d53f42;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .day-navigation button:hover {
+    background-color: #b93436;
+  }
+  

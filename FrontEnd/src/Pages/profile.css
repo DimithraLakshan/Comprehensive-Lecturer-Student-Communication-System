@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a33434;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  .header-title h1 {
+    font-size: 24px;
+  }
+  
+  .header-title h2 {
+    font-size: 18px;
+  }
+  
+  .user-info {
+    text-align: right;
+  }
+  
+  .profile-icon img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-section {
+    padding: 20px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .edit-button {
+    background-color: #a33434;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .details-bio-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .details-card, .bio-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .more-details, .add-more {
+    color: #a33434;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .more-details:hover, .add-more:hover {
+    text-decoration: underline;
+  }
+  
+  .privacy-policy {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  

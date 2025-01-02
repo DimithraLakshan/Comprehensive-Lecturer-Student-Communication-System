@@ -1,0 +1,110 @@
+/* General Layout */
+.lecturer-grid-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CC3E3E;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header-logo img {
+    width: 50px;
+  }
+  
+  .header-title h1, .header-title h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .header-profile p {
+    margin: 0;
+  }
+  
+  .profile-icon img {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEC5C5;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Lecturer Grid */
+  .lecturer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .lecturer-card {
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+    transition: transform 0.2s ease;
+  }
+  
+  .lecturer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .lecturer-image {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .lecturer-card p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
