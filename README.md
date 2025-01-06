@@ -1,1 +1,1 @@
-# Comprehensive-Lecturer-Student-Communication-System
+# Comprehensive Lecturer-Student Communication System
