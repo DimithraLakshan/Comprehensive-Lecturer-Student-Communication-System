@@ -1,6 +1,30 @@
 const Message = require('../models/Message');
 const Notification = require('../models/Notification');
 
+// Get the registered lecturer list
+exports.getLecturerList = async (req, res) => {
+    try {
+        const lecturers = await Lecturer.find(); // Assuming you have a Lecturer model
+        res.status(200).json(lecturers);
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching lecturers', error });
+    }
+};
+
+// Get a lecturer by ID
+exports.getLecturerById = async (req, res) => {
+    try {
+        const lecturer = await Lecturer.findById(req.params.id);
+        if (!lecturer) {
+            return res.status(404).json({ message: 'Lecturer not found' });
+        }
+        res.status(200).json(lecturer);
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching lecturer', error });
+    }
+};
+
+
 // Send Message
 exports.sendMessage = async (req, res) => {
     try {

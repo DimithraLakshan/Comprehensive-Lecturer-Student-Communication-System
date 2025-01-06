@@ -34,7 +34,7 @@ const Messages = () => {
 
       <div className="message-container">
         <aside className="sidebar">
-          <button className="compose-btn">Compose</button>
+         
           <ul>
             <li onClick={() => setActiveComponent('compose')}>Compose</li>
             <li onClick={() => setActiveComponent('inbox')}>Inbox</li>
